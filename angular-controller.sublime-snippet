@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+angular
+  .module('${1:module}')
+  .controller('${2:namespace}.${3:ControllerName}Controller', ${3:ControllerName}Controller);
+
+${3:ControllerName}Controller.\$inject = [${4:'dependencies'}];
+
+function ${3:ControllerName}Controller(${4:'dependencies'}) {
+  ${0:// controller code}
+
+  ///////////////
+
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>controller, ctrl</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

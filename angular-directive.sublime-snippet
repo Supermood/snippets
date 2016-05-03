@@ -1,0 +1,37 @@
+<snippet>
+  <content><![CDATA[
+angular
+    .module('${1:module}')
+    .directive('${2:directiveName}', ${2:directiveName});
+
+function ${2:directiveName}() {
+  var ddo = {
+    restrict: 'EA',
+    templateUrl: '/app/${3:path/}${2:directiveName}.directive.html',
+    scope: {},
+    link: linkFunction,
+    controller: ${4:Directive}Controller,
+    controllerAs: 'vm',
+    bindToController: true // because the scope is isolated
+  };
+
+  return ddo;
+
+  function linkFunction(scope, el, attr, ctrl) {
+  }
+}
+
+${4:Directive}Controller.\$inject = [$0];
+
+function ${4:Directive}Controller($0) {
+    var vm = this;
+
+    //////////
+
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>directive, dir</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

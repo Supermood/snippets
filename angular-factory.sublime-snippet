@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+angular
+  .module('${1:module}')
+  .factory('${3:Factory}', ${3:Factory});
+
+${3:Factory}.\$inject = [${4:'dependencies'}];
+
+function ${3:Factory}(${4:'dependencies'}) {
+  return {
+    ${4:someFunction}: ${4:someFunction}
+  };
+
+  ///////////////
+
+  function ${4:someFunction}() {
+    ${0:// some code}
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>factory</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

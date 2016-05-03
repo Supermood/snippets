@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+angular
+  .module('${1:module}')
+  .service('${2:ServiceName}', ${2:ServiceName});
+
+${2:ServiceName}.\$inject = [${3:'dependencies'}];
+
+function ${2:ServiceName}(${3:'dependencies'}) {
+
+  this.${4:publicFunction} = ${5:someFunction};
+
+  ///////////////
+
+  function ${5:someFunction}() {
+    ${0:// some code}
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>service</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
