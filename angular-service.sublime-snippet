@@ -10,7 +10,7 @@ function ${2:ServiceName}(${3:'dependencies'}) {
 
   this.${4:publicFunction} = ${5:someFunction};
 
-  ///////////////
+  /* ------------------ */
 
   function ${5:someFunction}() {
     ${0:// some code}

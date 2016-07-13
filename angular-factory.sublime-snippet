@@ -11,7 +11,7 @@ function ${3:Factory}(${4:'dependencies'}) {
     ${4:someFunction}: ${4:someFunction}
   };
 
-  ///////////////
+  /* ------------------ */
 
   function ${4:someFunction}() {
     ${0:// some code}
