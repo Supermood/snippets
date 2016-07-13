@@ -23,7 +23,7 @@ function ${2:ResourceName}Resource(\$resource) {
         action: null,
       }
     }$0
-   });
+  });
 }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
