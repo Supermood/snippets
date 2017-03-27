@@ -14,15 +14,15 @@ function ${2:ResourceName}Resource(\$resource) {
         ${3}${2:ResourceName}Id: null,
         action: null,
       },
-      isArray: true
+      isArray: true,
     },
     get: {
       method: 'GET',
       params: {
         ${3}${2:ResourceName}Id: '@${3}${2:ResourceName}Id',
         action: null,
-      }
-    }$0
+      },
+    },$0
   });
 }
 ]]></content>

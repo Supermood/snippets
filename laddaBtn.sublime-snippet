@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<button type="submit" class="ladda-button ${1:btn btn-default}" data-style="expand-right" ng-click="${2:ctrl.call()}">
+  <span class="ladda-label">${3:{{ '${4:text}' | translate }}}</span>
+</button>$0
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>laddabtn</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>

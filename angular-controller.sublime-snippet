@@ -10,7 +10,6 @@ function ${3:ControllerName}Controller(${4:'dependencies'}) {
   ${0:// controller code}
 
   /* ------------------ */
-
 }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

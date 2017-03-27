@@ -24,10 +24,7 @@ function ${2:directiveName}() {
 ${4:Directive}Controller.\$inject = [$0];
 
 function ${4:Directive}Controller($0) {
-    var vm = this;
-
-    //////////
-
+  /* ------------------ */
 }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
