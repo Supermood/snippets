@@ -1,0 +1,8 @@
+{
+  "scope": "text.html",
+  "completions": [
+    { "trigger": "ladda|lada|lbt", "contents": "laddabtn" },
+    { "trigger": "ngt|tra", "contents": "ngTranslate" }
+  ]
+}
+

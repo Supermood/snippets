@@ -1,0 +1,8 @@
+{
+  "scope": "source.js, source.php",
+  "completions": [
+    { "trigger": "ret|retr|retu|return", "contents": "return $0;" },
+    { "trigger": "rf", "contents": "return false;$0" },
+    { "trigger": "rt", "contents": "return true;$0" }
+  ]
+}
